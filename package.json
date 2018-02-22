@@ -1,0 +1,24 @@
+{
+  "id": "textnow",
+  "name": "TextNow",
+  "version": "1.0.0",
+  "description": "Franz Recipe for TextNow",
+  "main": "index.js",
+  "author": "Austin Huang <im@austinhuang.me> (https://austinhuang.me)",
+  "license": "MIT",
+  "repository": "https://github.com/austinhuang0131/franz-recipe-textnow",
+  "config": {
+    "serviceURL": "https://textnow.com/messaging",
+    "message": "ADs may occur. Contact im@austinhuang.me if this recipe fails.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
