@@ -1,8 +1,8 @@
-const path = require('path');
+const path = require("path");
 
-module.exports = (Franz) => {
-  const getMessages = function getMessages() {
-    Franz.setBadge(count);
-  };
-  Franz.loop(() => {Franz.setBadge(document.getElementsByClassName("badge").map(b => b.textContent).reduce((a, b) => parseInt(a) + parseInt(b), 0))});
+module.exports = Franz => {
+	Franz.loop(() => {
+		Franz.setBadge(document.getElementsByClassName("badge").length, 0);
+	});
+	Franz.injectCSS(path.join(__dirname, 'service.css'));
 };

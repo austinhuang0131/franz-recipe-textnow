@@ -1,0 +1,5 @@
+.interstitial-banner #banner div[data-ad-name="300x250"] {
+  height: 0 !important;
+  width: 0 !important;
+  display: none !important;
+}
