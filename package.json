@@ -9,7 +9,7 @@
   "repository": "https://github.com/austinhuang0131/franz-recipe-textnow",
   "config": {
     "serviceURL": "https://textnow.com/messaging",
-    "message": "Contact im@austinhuang.me if this recipe fails.\nContributions welcomed at https://github.com/austinhuang0131/franz-recipe-textnow",
+    "message": "Contact im@austinhuang.me if this recipe fails. Contributions welcomed at https://github.com/austinhuang0131/franz-recipe-textnow",
     "popup": [],
     "hasNotificationSound": true,
     "hasDirectMessages": true,
